@@ -14,7 +14,7 @@
 body{
     background-color: var(--primery-bg-color);
     color: var(--text-color);
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .list{
@@ -31,6 +31,7 @@ body{
 /* Навигация сайта */
 .site-nav .link{
     color: var(--tittle-color);
+    text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -44,6 +45,7 @@ body{
 
 .contact-nav .link{
     color: var(--text-color);
+    text-decoration: none;
 }
 /* Навигация контактов */
 .contact-nav .link:hover,
@@ -57,10 +59,20 @@ body{
 /* Sections */
 .hero-title{
     color: var(--primery-bg-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
 }
 
 .feature .title{
-    color: var(--tittle-color);
+    color: var(--tittle-color);  
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.feature-text{
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .work-title{
@@ -79,6 +91,7 @@ body{
     color: var(--tittle-color);
 }
 
+/* ФУТЕР */
 .footer{
     background-color: var(--footer-bgr-color);
 }
@@ -89,6 +102,7 @@ body{
 
 .contact{
     color: var(--footer-text-color);
+    text-decoration: none;
 }
 
 .address .contact:hover,
@@ -105,6 +119,7 @@ body{
 .btn{
     color: var(--primery-bg-color);
     background-color: var(--accent-color);
+    cursor: pointer;
     
 }
 
@@ -116,6 +131,7 @@ body{
 .btn-portfolio{
     color: var(--tittle-color);
     background-color: var(--team-bgr-color);
+    cursor: pointer;
 }
 
 .button-nav .btn-portfolio:hover,
