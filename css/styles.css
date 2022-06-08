@@ -127,11 +127,14 @@ body {
 
 .street {
   color: var(--primery-bg-color);
+  line-height: 1.7;
+  font-style: normal;
 }
 
 .contact {
   color: var(--footer-text-color);
   text-decoration: none;
+  line-height: 1.7;
 }
 
 .address .contact:hover,
