@@ -34,6 +34,15 @@ body {
   color: var(--accent-color);
 }
 
+.logo-footer {
+  color: var(--primery-bg-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
 /* Навигация сайта */
 .site-nav .link {
   color: var(--tittle-color);
@@ -111,8 +120,15 @@ body {
   text-align: center;
 }
 
+
+
 .team .title {
   color: var(--tittle-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .team-text {
@@ -135,6 +151,7 @@ body {
   color: var(--footer-text-color);
   text-decoration: none;
   line-height: 1.7;
+  font-style: normal;
 }
 
 .address .contact:hover,
@@ -160,6 +177,7 @@ body {
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -178,10 +196,12 @@ body {
   color: var(--tittle-color);
   background-color: var(--team-bgr-color);
   cursor: pointer;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+
 }
 
 .button-nav .btn-portfolio:hover,
